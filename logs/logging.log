@@ -1,0 +1,449 @@
+2022-09-08 08:40:17,027 - [test_login.py-->line:69] - ERROR: 登录成功
+2022-09-08 08:40:17,027 - [test_login.py-->line:70] - ERROR: 0 != '00000'
+Traceback (most recent call last):
+  File "D:\PycharmProjects\apitest\test_case\test_login.py", line 66, in test_login
+    self.assertEqual(expected['code'],res['code'])
+  File "D:\Python\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Python\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != '00000'
+2022-09-08 08:40:17,063 - [test_login.py-->line:69] - ERROR: 登录失败,密码错误
+2022-09-08 08:40:17,063 - [test_login.py-->line:70] - ERROR: 10202 != '10202'
+Traceback (most recent call last):
+  File "D:\PycharmProjects\apitest\test_case\test_login.py", line 66, in test_login
+    self.assertEqual(expected['code'],res['code'])
+  File "D:\Python\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Python\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 10202 != '10202'
+2022-09-08 08:40:17,082 - [test_login.py-->line:69] - ERROR: 登录失败,密码为空
+2022-09-08 08:40:17,082 - [test_login.py-->line:70] - ERROR: 10001 != '10001'
+Traceback (most recent call last):
+  File "D:\PycharmProjects\apitest\test_case\test_login.py", line 66, in test_login
+    self.assertEqual(expected['code'],res['code'])
+  File "D:\Python\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Python\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 10001 != '10001'
+2022-09-08 08:40:17,103 - [test_login.py-->line:69] - ERROR: 登录失败,账号为空
+2022-09-08 08:40:17,104 - [test_login.py-->line:70] - ERROR: 10001 != '10001'
+Traceback (most recent call last):
+  File "D:\PycharmProjects\apitest\test_case\test_login.py", line 66, in test_login
+    self.assertEqual(expected['code'],res['code'])
+  File "D:\Python\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Python\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 10001 != '10001'
+2022-09-08 08:49:38,655 - [test_login.py-->line:69] - ERROR: 登录成功
+2022-09-08 08:49:38,655 - [test_login.py-->line:70] - ERROR: 0 != '00000'
+Traceback (most recent call last):
+  File "D:\PycharmProjects\apitest\test_case\test_login.py", line 66, in test_login
+    self.assertEqual(expected['code'],res['code'])
+  File "D:\Python\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Python\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != '00000'
+2022-09-08 08:49:38,689 - [test_login.py-->line:69] - ERROR: 登录失败,密码错误
+2022-09-08 08:49:38,689 - [test_login.py-->line:70] - ERROR: 10202 != '10202'
+Traceback (most recent call last):
+  File "D:\PycharmProjects\apitest\test_case\test_login.py", line 66, in test_login
+    self.assertEqual(expected['code'],res['code'])
+  File "D:\Python\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Python\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 10202 != '10202'
+2022-09-08 08:49:38,707 - [test_login.py-->line:69] - ERROR: 登录失败,密码为空
+2022-09-08 08:49:38,707 - [test_login.py-->line:70] - ERROR: 10001 != '10001'
+Traceback (most recent call last):
+  File "D:\PycharmProjects\apitest\test_case\test_login.py", line 66, in test_login
+    self.assertEqual(expected['code'],res['code'])
+  File "D:\Python\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Python\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 10001 != '10001'
+2022-09-08 08:49:38,725 - [test_login.py-->line:69] - ERROR: 登录失败,账号为空
+2022-09-08 08:49:38,725 - [test_login.py-->line:70] - ERROR: 10001 != '10001'
+Traceback (most recent call last):
+  File "D:\PycharmProjects\apitest\test_case\test_login.py", line 66, in test_login
+    self.assertEqual(expected['code'],res['code'])
+  File "D:\Python\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Python\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 10001 != '10001'
+2022-09-08 08:50:29,457 - [test_login.py-->line:69] - ERROR: 登录成功
+2022-09-08 08:50:29,458 - [test_login.py-->line:70] - ERROR: string indices must be integers
+Traceback (most recent call last):
+  File "D:\PycharmProjects\apitest\test_case\test_login.py", line 66, in test_login
+    self.assertEqual(expected['code'],res['code'])
+TypeError: string indices must be integers
+2022-09-08 08:50:29,496 - [test_login.py-->line:69] - ERROR: 登录失败,密码错误
+2022-09-08 08:50:29,496 - [test_login.py-->line:70] - ERROR: string indices must be integers
+Traceback (most recent call last):
+  File "D:\PycharmProjects\apitest\test_case\test_login.py", line 66, in test_login
+    self.assertEqual(expected['code'],res['code'])
+TypeError: string indices must be integers
+2022-09-08 08:50:29,517 - [test_login.py-->line:69] - ERROR: 登录失败,密码为空
+2022-09-08 08:50:29,517 - [test_login.py-->line:70] - ERROR: string indices must be integers
+Traceback (most recent call last):
+  File "D:\PycharmProjects\apitest\test_case\test_login.py", line 66, in test_login
+    self.assertEqual(expected['code'],res['code'])
+TypeError: string indices must be integers
+2022-09-08 08:50:29,536 - [test_login.py-->line:69] - ERROR: 登录失败,账号为空
+2022-09-08 08:50:29,536 - [test_login.py-->line:70] - ERROR: string indices must be integers
+Traceback (most recent call last):
+  File "D:\PycharmProjects\apitest\test_case\test_login.py", line 66, in test_login
+    self.assertEqual(expected['code'],res['code'])
+TypeError: string indices must be integers
+2022-09-08 08:52:49,170 - [test_login.py-->line:69] - ERROR: 登录成功
+2022-09-08 08:52:49,170 - [test_login.py-->line:70] - ERROR: 0 != '00000'
+Traceback (most recent call last):
+  File "D:\PycharmProjects\apitest\test_case\test_login.py", line 66, in test_login
+    self.assertEqual(expected['code'],res['code'])
+  File "D:\Python\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Python\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != '00000'
+2022-09-08 08:52:49,203 - [test_login.py-->line:69] - ERROR: 登录失败,密码错误
+2022-09-08 08:52:49,203 - [test_login.py-->line:70] - ERROR: 10202 != '10202'
+Traceback (most recent call last):
+  File "D:\PycharmProjects\apitest\test_case\test_login.py", line 66, in test_login
+    self.assertEqual(expected['code'],res['code'])
+  File "D:\Python\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Python\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 10202 != '10202'
+2022-09-08 08:52:49,222 - [test_login.py-->line:69] - ERROR: 登录失败,密码为空
+2022-09-08 08:52:49,222 - [test_login.py-->line:70] - ERROR: 10001 != '10001'
+Traceback (most recent call last):
+  File "D:\PycharmProjects\apitest\test_case\test_login.py", line 66, in test_login
+    self.assertEqual(expected['code'],res['code'])
+  File "D:\Python\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Python\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 10001 != '10001'
+2022-09-08 08:52:49,240 - [test_login.py-->line:69] - ERROR: 登录失败,账号为空
+2022-09-08 08:52:49,240 - [test_login.py-->line:70] - ERROR: 10001 != '10001'
+Traceback (most recent call last):
+  File "D:\PycharmProjects\apitest\test_case\test_login.py", line 66, in test_login
+    self.assertEqual(expected['code'],res['code'])
+  File "D:\Python\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Python\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 10001 != '10001'
+2022-09-08 08:53:41,913 - [test_login.py-->line:69] - ERROR: 登录成功
+2022-09-08 08:53:41,913 - [test_login.py-->line:70] - ERROR: 0 != '00000'
+Traceback (most recent call last):
+  File "D:\PycharmProjects\apitest\test_case\test_login.py", line 66, in test_login
+    self.assertEqual(expected["code"],res["code"])
+  File "D:\Python\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Python\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != '00000'
+2022-09-08 08:53:41,988 - [test_login.py-->line:69] - ERROR: 登录失败,密码错误
+2022-09-08 08:53:41,988 - [test_login.py-->line:70] - ERROR: 10202 != '10202'
+Traceback (most recent call last):
+  File "D:\PycharmProjects\apitest\test_case\test_login.py", line 66, in test_login
+    self.assertEqual(expected["code"],res["code"])
+  File "D:\Python\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Python\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 10202 != '10202'
+2022-09-08 08:53:42,058 - [test_login.py-->line:69] - ERROR: 登录失败,密码为空
+2022-09-08 08:53:42,058 - [test_login.py-->line:70] - ERROR: 10001 != '10001'
+Traceback (most recent call last):
+  File "D:\PycharmProjects\apitest\test_case\test_login.py", line 66, in test_login
+    self.assertEqual(expected["code"],res["code"])
+  File "D:\Python\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Python\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 10001 != '10001'
+2022-09-08 08:53:42,132 - [test_login.py-->line:69] - ERROR: 登录失败,账号为空
+2022-09-08 08:53:42,132 - [test_login.py-->line:70] - ERROR: 10001 != '10001'
+Traceback (most recent call last):
+  File "D:\PycharmProjects\apitest\test_case\test_login.py", line 66, in test_login
+    self.assertEqual(expected["code"],res["code"])
+  File "D:\Python\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Python\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 10001 != '10001'
+2022-09-08 08:55:26,480 - [test_login.py-->line:69] - ERROR: 登录失败,密码错误
+2022-09-08 08:55:26,480 - [test_login.py-->line:70] - ERROR: 10202 != '10202'
+Traceback (most recent call last):
+  File "D:\PycharmProjects\apitest\test_case\test_login.py", line 66, in test_login
+    self.assertEqual(expected["code"],res["code"])
+  File "D:\Python\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Python\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 10202 != '10202'
+2022-09-08 08:55:26,499 - [test_login.py-->line:69] - ERROR: 登录失败,密码为空
+2022-09-08 08:55:26,499 - [test_login.py-->line:70] - ERROR: 10001 != '10001'
+Traceback (most recent call last):
+  File "D:\PycharmProjects\apitest\test_case\test_login.py", line 66, in test_login
+    self.assertEqual(expected["code"],res["code"])
+  File "D:\Python\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Python\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 10001 != '10001'
+2022-09-08 08:55:26,523 - [test_login.py-->line:69] - ERROR: 登录失败,账号为空
+2022-09-08 08:55:26,524 - [test_login.py-->line:70] - ERROR: 10001 != '10001'
+Traceback (most recent call last):
+  File "D:\PycharmProjects\apitest\test_case\test_login.py", line 66, in test_login
+    self.assertEqual(expected["code"],res["code"])
+  File "D:\Python\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Python\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 10001 != '10001'
+2022-09-08 08:56:10,431 - [test_login.py-->line:69] - ERROR: 登录成功
+2022-09-08 08:56:10,431 - [test_login.py-->line:70] - ERROR: 0 != '00000'
+Traceback (most recent call last):
+  File "D:\PycharmProjects\apitest\test_case\test_login.py", line 66, in test_login
+    self.assertEqual(expected["code"],res["code"])
+  File "D:\Python\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Python\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != '00000'
+2022-09-08 08:56:10,467 - [test_login.py-->line:69] - ERROR: 登录失败,密码错误
+2022-09-08 08:56:10,467 - [test_login.py-->line:70] - ERROR: 10202 != '10202'
+Traceback (most recent call last):
+  File "D:\PycharmProjects\apitest\test_case\test_login.py", line 66, in test_login
+    self.assertEqual(expected["code"],res["code"])
+  File "D:\Python\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Python\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 10202 != '10202'
+2022-09-08 08:56:10,482 - [test_login.py-->line:69] - ERROR: 登录失败,密码为空
+2022-09-08 08:56:10,482 - [test_login.py-->line:70] - ERROR: 10001 != '10001'
+Traceback (most recent call last):
+  File "D:\PycharmProjects\apitest\test_case\test_login.py", line 66, in test_login
+    self.assertEqual(expected["code"],res["code"])
+  File "D:\Python\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Python\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 10001 != '10001'
+2022-09-08 08:56:10,499 - [test_login.py-->line:69] - ERROR: 登录失败,账号为空
+2022-09-08 08:56:10,499 - [test_login.py-->line:70] - ERROR: 10001 != '10001'
+Traceback (most recent call last):
+  File "D:\PycharmProjects\apitest\test_case\test_login.py", line 66, in test_login
+    self.assertEqual(expected["code"],res["code"])
+  File "D:\Python\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Python\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 10001 != '10001'
+2022-09-08 09:01:53,400 - [test_login.py-->line:69] - ERROR: 登录成功
+2022-09-08 09:01:53,400 - [test_login.py-->line:70] - ERROR: 0 != '00000'
+Traceback (most recent call last):
+  File "D:\PycharmProjects\apitest\test_case\test_login.py", line 66, in test_login
+    self.assertEqual(expected["code"],res["code"])
+  File "D:\Python\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Python\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != '00000'
+2022-09-08 09:01:53,421 - [test_login.py-->line:69] - ERROR: 登录失败,密码为空
+2022-09-08 09:01:53,421 - [test_login.py-->line:70] - ERROR: 2 != '10001'
+Traceback (most recent call last):
+  File "D:\PycharmProjects\apitest\test_case\test_login.py", line 66, in test_login
+    self.assertEqual(expected["code"],res["code"])
+  File "D:\Python\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Python\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != '10001'
+2022-09-08 09:01:53,438 - [test_login.py-->line:69] - ERROR: 登录失败,账号为空
+2022-09-08 09:01:53,439 - [test_login.py-->line:70] - ERROR: 3 != '10001'
+Traceback (most recent call last):
+  File "D:\PycharmProjects\apitest\test_case\test_login.py", line 66, in test_login
+    self.assertEqual(expected["code"],res["code"])
+  File "D:\Python\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Python\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 3 != '10001'
+2022-09-08 09:03:27,055 - [test_login.py-->line:69] - ERROR: 登录成功
+2022-09-08 09:03:27,055 - [test_login.py-->line:70] - ERROR: 'true' != True
+Traceback (most recent call last):
+  File "D:\PycharmProjects\apitest\test_case\test_login.py", line 67, in test_login
+    self.assertEqual(expected["success"], res["success"])
+  File "D:\Python\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Python\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 'true' != True
+2022-09-08 09:04:26,983 - [test_login.py-->line:73] - INFO: 登录成功
+2022-09-08 09:04:27,012 - [test_login.py-->line:73] - INFO: 登录失败,密码错误
+2022-09-08 09:05:08,229 - [test_login.py-->line:73] - INFO: 登录成功
+2022-09-08 09:08:11,052 - [test_login.py-->line:73] - INFO: 登录成功
+2022-09-08 09:08:11,082 - [test_login.py-->line:73] - INFO: 登录失败,密码错误
+2022-09-08 09:09:21,365 - [test_login.py-->line:75] - INFO: 登录成功
+2022-09-08 09:09:21,397 - [test_login.py-->line:75] - INFO: 登录失败,密码错误
+2022-09-08 09:12:06,771 - [test_login.py-->line:75] - INFO: 登录成功
+2022-09-08 09:12:06,810 - [test_login.py-->line:75] - INFO: 登录失败,密码错误
+2022-09-08 09:12:06,842 - [test_login.py-->line:75] - INFO: 登录失败,账号为空
+2022-09-08 09:12:40,556 - [test_login.py-->line:75] - INFO: 登录成功
+2022-09-08 09:12:40,590 - [test_login.py-->line:75] - INFO: 登录失败,密码错误
+2022-09-08 09:12:40,608 - [test_login.py-->line:75] - INFO: 登录失败,密码为空
+2022-09-08 09:12:40,624 - [test_login.py-->line:75] - INFO: 登录失败,账号为空
+2022-09-08 09:29:17,442 - [test_login.py-->line:75] - INFO: 登录成功
+2022-09-08 09:29:17,485 - [test_login.py-->line:75] - INFO: 登录失败,密码错误
+2022-09-08 09:29:17,504 - [test_login.py-->line:75] - INFO: 登录失败,密码为空
+2022-09-08 09:29:17,525 - [test_login.py-->line:75] - INFO: 登录失败,账号为空
+2022-09-08 09:29:51,816 - [test_login.py-->line:75] - INFO: 登录成功
+2022-09-08 09:29:51,845 - [test_login.py-->line:75] - INFO: 登录失败,密码错误
+2022-09-08 09:29:51,860 - [test_login.py-->line:75] - INFO: 登录失败,密码为空
+2022-09-08 09:29:51,873 - [test_login.py-->line:75] - INFO: 登录失败,账号为空
+2022-09-08 09:30:06,433 - [test_login.py-->line:75] - INFO: 登录成功
+2022-09-08 09:30:06,463 - [test_login.py-->line:75] - INFO: 登录失败,密码错误
+2022-09-08 09:30:06,483 - [test_login.py-->line:75] - INFO: 登录失败,密码为空
+2022-09-08 09:30:06,500 - [test_login.py-->line:75] - INFO: 登录失败,账号为空
+2022-09-08 09:30:11,652 - [test_login.py-->line:75] - INFO: 登录成功
+2022-09-08 09:30:11,688 - [test_login.py-->line:75] - INFO: 登录失败,密码错误
+2022-09-08 09:30:11,706 - [test_login.py-->line:75] - INFO: 登录失败,密码为空
+2022-09-08 09:30:11,726 - [test_login.py-->line:75] - INFO: 登录失败,账号为空
+2022-09-08 09:31:57,369 - [test_login.py-->line:75] - INFO: 登录成功
+2022-09-08 09:31:57,403 - [test_login.py-->line:75] - INFO: 登录失败,密码错误
+2022-09-08 09:31:57,420 - [test_login.py-->line:75] - INFO: 登录失败,密码为空
+2022-09-08 09:31:57,434 - [test_login.py-->line:75] - INFO: 登录失败,账号为空
+2022-09-08 09:32:04,597 - [test_login.py-->line:71] - ERROR: 登录成功
+2022-09-08 09:32:04,597 - [test_login.py-->line:72] - ERROR: '00000' != '10202'
+- 00000
++ 10202
+Traceback (most recent call last):
+  File "D:\PycharmProjects\apitest\test_case\test_login.py", line 68, in test_login
+    self.assertEqual(expected["code"],res["code"])
+  File "D:\Python\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Python\lib\unittest\case.py", line 1292, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Python\lib\unittest\case.py", line 753, in fail
+    raise self.failureException(msg)
+AssertionError: '00000' != '10202'
+- 00000
++ 10202
+
+2022-09-08 09:32:04,624 - [test_login.py-->line:75] - INFO: 登录失败,密码错误
+2022-09-08 09:32:04,640 - [test_login.py-->line:75] - INFO: 登录失败,密码为空
+2022-09-08 09:32:04,654 - [test_login.py-->line:75] - INFO: 登录失败,账号为空
+2022-09-08 09:32:11,395 - [test_login.py-->line:71] - ERROR: 登录成功
+2022-09-08 09:32:11,395 - [test_login.py-->line:72] - ERROR: '00000' != '10202'
+- 00000
++ 10202
+Traceback (most recent call last):
+  File "D:\PycharmProjects\apitest\test_case\test_login.py", line 68, in test_login
+    self.assertEqual(expected["code"],res["code"])
+  File "D:\Python\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Python\lib\unittest\case.py", line 1292, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Python\lib\unittest\case.py", line 753, in fail
+    raise self.failureException(msg)
+AssertionError: '00000' != '10202'
+- 00000
++ 10202
+
+2022-09-08 09:32:11,424 - [test_login.py-->line:75] - INFO: 登录失败,密码错误
+2022-09-08 09:32:11,441 - [test_login.py-->line:75] - INFO: 登录失败,密码为空
+2022-09-08 09:32:11,456 - [test_login.py-->line:75] - INFO: 登录失败,账号为空
+2022-09-08 09:32:18,847 - [test_login.py-->line:71] - ERROR: 登录成功
+2022-09-08 09:32:18,847 - [test_login.py-->line:72] - ERROR: '00000' != '10202'
+- 00000
++ 10202
+Traceback (most recent call last):
+  File "D:\PycharmProjects\apitest\test_case\test_login.py", line 68, in test_login
+    self.assertEqual(expected["code"],res["code"])
+  File "D:\Python\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Python\lib\unittest\case.py", line 1292, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Python\lib\unittest\case.py", line 753, in fail
+    raise self.failureException(msg)
+AssertionError: '00000' != '10202'
+- 00000
++ 10202
+
+2022-09-08 09:32:18,872 - [test_login.py-->line:75] - INFO: 登录失败,密码错误
+2022-09-08 09:32:18,887 - [test_login.py-->line:75] - INFO: 登录失败,密码为空
+2022-09-08 09:32:18,903 - [test_login.py-->line:75] - INFO: 登录失败,账号为空
+2022-09-08 09:42:01,769 - [test_login.py-->line:76] - INFO: 登录成功
+2022-09-08 09:42:01,799 - [test_login.py-->line:76] - INFO: 登录失败,密码错误
+2022-09-08 09:42:01,818 - [test_login.py-->line:76] - INFO: 登录失败,密码为空
+2022-09-08 09:42:01,835 - [test_login.py-->line:76] - INFO: 登录失败,账号为空
+2022-09-08 10:05:52,767 - [test_login.py-->line:77] - INFO: 登录成功
+2022-09-08 10:05:52,808 - [test_login.py-->line:77] - INFO: 登录失败,密码错误
+2022-09-08 10:05:52,823 - [test_login.py-->line:77] - INFO: 登录失败,密码为空
+2022-09-08 10:05:52,839 - [test_login.py-->line:77] - INFO: 登录失败,账号为空
+2022-09-08 10:05:53,252 - [test_medicalAdvice.py-->line:44] - INFO: 登录失败,密码错误
+2022-09-08 10:05:53,268 - [test_medicalAdvice.py-->line:44] - INFO: 登录失败,密码为空
+2022-09-08 10:05:53,282 - [test_medicalAdvice.py-->line:44] - INFO: 登录失败,账号为空
+2022-09-08 10:05:53,524 - [test_login.py-->line:77] - INFO: 登录成功
+2022-09-08 10:05:53,556 - [test_login.py-->line:77] - INFO: 登录失败,密码错误
+2022-09-08 10:05:53,572 - [test_login.py-->line:77] - INFO: 登录失败,密码为空
+2022-09-08 10:05:53,587 - [test_login.py-->line:77] - INFO: 登录失败,账号为空
+2022-09-08 10:09:14,853 - [test_login.py-->line:77] - INFO: 登录成功
+2022-09-08 10:09:14,884 - [test_login.py-->line:77] - INFO: 登录失败,密码错误
+2022-09-08 10:09:14,904 - [test_login.py-->line:77] - INFO: 登录失败,密码为空
+2022-09-08 10:09:14,923 - [test_login.py-->line:77] - INFO: 登录失败,账号为空
+2022-09-08 10:09:14,955 - [test_medicalAdvice.py-->line:46] - INFO: 登录失败,密码错误
+2022-09-08 10:09:14,971 - [test_medicalAdvice.py-->line:46] - INFO: 登录失败,密码为空
+2022-09-08 10:09:14,985 - [test_medicalAdvice.py-->line:46] - INFO: 登录失败,账号为空
+2022-09-08 10:09:15,011 - [test_login.py-->line:73] - ERROR: 登录成功
+2022-09-08 10:09:15,011 - [test_login.py-->line:74] - ERROR: '00000' != '10202'
+- 00000
++ 10202
+Traceback (most recent call last):
+  File "D:\PycharmProjects\apitest\test_case\test_login.py", line 70, in test_login
+    self.assertEqual(expected["code"],res["code"])
+  File "D:\Python\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Python\lib\unittest\case.py", line 1292, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Python\lib\unittest\case.py", line 753, in fail
+    raise self.failureException(msg)
+AssertionError: '00000' != '10202'
+- 00000
++ 10202
+
+2022-09-08 10:09:15,038 - [test_login.py-->line:77] - INFO: 登录失败,密码错误
+2022-09-08 10:09:15,054 - [test_login.py-->line:77] - INFO: 登录失败,密码为空
+2022-09-08 10:09:15,069 - [test_login.py-->line:77] - INFO: 登录失败,账号为空
+2022-09-08 10:15:42,188 - [test_login.py-->line:77] - INFO: 登录成功
+2022-09-08 10:15:42,215 - [test_login.py-->line:77] - INFO: 登录失败,密码错误
+2022-09-08 10:15:42,230 - [test_login.py-->line:77] - INFO: 登录失败,密码为空
+2022-09-08 10:15:42,245 - [test_login.py-->line:77] - INFO: 登录失败,账号为空
+2022-09-08 10:15:42,398 - [test_medicalAdvice.py-->line:47] - INFO: 登录失败,密码错误
+2022-09-08 10:15:42,415 - [test_medicalAdvice.py-->line:47] - INFO: 登录失败,密码为空
+2022-09-08 10:15:42,433 - [test_medicalAdvice.py-->line:47] - INFO: 登录失败,账号为空
+2022-09-08 10:15:42,669 - [test_login.py-->line:77] - INFO: 登录成功
+2022-09-08 10:15:42,694 - [test_login.py-->line:77] - INFO: 登录失败,密码错误
+2022-09-08 10:15:42,711 - [test_login.py-->line:77] - INFO: 登录失败,密码为空
+2022-09-08 10:15:42,726 - [test_login.py-->line:77] - INFO: 登录失败,账号为空
+2022-09-08 11:57:44,634 - [test_login.py-->line:111] - INFO: 登录成功
+2022-09-08 11:57:44,680 - [test_login.py-->line:111] - INFO: 登录失败,密码错误
+2022-09-08 11:57:44,700 - [test_login.py-->line:111] - INFO: 登录失败,密码为空
+2022-09-08 11:57:44,722 - [test_login.py-->line:111] - INFO: 登录失败,账号为空
+2022-09-08 14:36:49,267 - [test_login.py-->line:137] - INFO: 登录成功
+2022-09-08 14:36:49,307 - [test_login.py-->line:137] - INFO: 登录失败,密码错误
+2022-09-08 14:36:49,336 - [test_login.py-->line:137] - INFO: 登录失败,密码为空
+2022-09-08 14:36:49,353 - [test_login.py-->line:137] - INFO: 登录失败,账号为空
